@@ -1,0 +1,146 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 20px auto;
+    width: 550px;
+    height: 800px;
+    background: #F4F4F4;
+}
+
+#head-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    height: 285px;
+    background-color: #7C3AED;
+}
+
+.heading1 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    margin: 33px 51px;
+}
+
+#input-box {
+    color: #FFFFFF;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    background-color: #7C3AED;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 40px;
+}
+
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500px;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 27px;
+    margin-bottom: 35px;
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+span {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+
+#length-div {
+    margin: 35px 25px 25px 25px;
+    width: 500px;
+    height: 110px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    text-align: center;
+}
+
+.le {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #5A537B;
+    margin-bottom: 10px;
+}
+
+.le-re {
+    padding: 5px 60px;
+    color: #9CA3AF;
+}
+
+#volume-div {
+    margin: 25px;
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.vo {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #5A537B;
+    margin-bottom: 9px;
+}
+
+.vo-re {
+    padding: 5px 60px;
+    color: #9CA3AF;
+}
+
+#mass-div {
+    margin: 25px;
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.ma {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #5A537B;
+    margin-bottom: 9px;
+}
+
+.ma-re {
+    padding: 5px 60px;
+    color: #9CA3AF;
+}
